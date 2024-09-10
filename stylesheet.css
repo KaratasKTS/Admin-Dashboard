@@ -59,14 +59,19 @@ nav {
   height: 20px;
   gap:20px;
   display: flex;
-  padding: 10px;
+  padding: 14px;
   flex-direction: row;
-  flex: 1 3 100px;
+  flex: 0.9 2 100px;
 }
+#bell{
+    width: 25px;
+}
+
 input{
     border-radius: 20px;
     border: none;
     background-color: var(--light-cyan-color);
+    
     
 }
 header{
@@ -75,7 +80,7 @@ header{
     
     justify-self: start; 
     align-items: center;
-    padding:10px 40px 0 40px ;
+    padding:10px 40px 40px 40px ;
     margin: 0px;
     gap: 20px;
     
@@ -112,3 +117,12 @@ button{
     align-items: center;
     gap: 10px;
 }
+.gridContent{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: var(--light-cyan-color);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
